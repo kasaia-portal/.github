@@ -1,6 +1,5 @@
 name: Bug
 description: Something behaves wrongly.
-title: ""
 type: Bug
 projects: ["kasaia-portal/1"]
 body:

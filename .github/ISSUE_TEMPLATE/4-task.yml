@@ -1,6 +1,5 @@
 name: Task
 description: A slice of a story, usually its part in one repo.
-title: ""
 type: Task
 projects: ["kasaia-portal/1"]
 body:

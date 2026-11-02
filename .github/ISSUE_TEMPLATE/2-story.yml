@@ -1,6 +1,5 @@
 name: Story
 description: One user-facing change, small enough to finish and ship.
-title: ""
 type: Story
 projects: ["kasaia-portal/1"]
 body:

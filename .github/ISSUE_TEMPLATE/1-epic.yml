@@ -1,6 +1,5 @@
 name: Epic
 description: A general story — a goal that splits into several stories, often across repos.
-title: ""
 type: Epic
 projects: ["kasaia-portal/1"]
 body:
