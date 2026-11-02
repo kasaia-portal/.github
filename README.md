@@ -3,7 +3,7 @@
 Organization-wide defaults for the kasaia-portal repositories. GitHub uses the files here for any repo that
 does not define its own.
 
-- `ISSUE_TEMPLATE/`: the forms "New issue" offers: Epic, Story, Bug and Task. Each sets its issue type and
+- `.github/ISSUE_TEMPLATE/`: the forms "New issue" offers: Epic, Story, Bug and Task. Each sets its issue type and
   adds the issue to the [Kasaia Portal project](https://github.com/orgs/kasaia-portal/projects/1). Stories
   and bugs open with a plain-language **Before and after**.
 
