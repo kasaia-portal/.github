@@ -1,0 +1,51 @@
+name: Bug
+description: Something behaves wrongly.
+title: ""
+type: Bug
+projects: ["kasaia-portal/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Open the bug in the repo where the fix will land. Write in plain English.
+  - type: textarea
+    id: before-after
+    attributes:
+      label: Before and after
+      description: What goes wrong today, from the user's point of view, and what should happen instead once it is fixed.
+      value: |
+        **Before:**
+
+        **After:**
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce
+      description: Steps, who was signed in, and any message or request id (`ref ...`) shown.
+      value: |
+        1.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What is known about the cause, logs, how often it happens.
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What the fix changes.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        -
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests
+      description: The test that fails today and passes once fixed.

@@ -1,0 +1,28 @@
+name: Task
+description: A slice of a story, usually its part in one repo.
+title: ""
+type: Task
+projects: ["kasaia-portal/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Add the task to its story as a sub-issue ("Relationships → Add parent"). The story holds the before and after; add one here only if this slice changes something on its own. Write in plain English.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Which story this belongs to and what part of it this is.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What this task changes.
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests

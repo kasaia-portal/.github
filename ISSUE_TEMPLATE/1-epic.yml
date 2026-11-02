@@ -1,0 +1,38 @@
+name: Epic
+description: A general story — a goal that splits into several stories, often across repos.
+title: ""
+type: Epic
+projects: ["kasaia-portal/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An epic holds no commits itself; its stories do. Create the stories from their own form and add each one to this epic as a sub-issue ("Relationships → Add parent" on the story). Write in plain English.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this goal matters and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: The stories it splits into, one line each.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How we will know the epic is done.
+      value: |
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: follow-ups
+    attributes:
+      label: Follow-ups
+      description: Related work left out on purpose.
