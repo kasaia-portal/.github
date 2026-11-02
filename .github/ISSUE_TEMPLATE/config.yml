@@ -1,2 +1,6 @@
 # Every issue starts from one of the forms, so it carries the agreed sections.
 blank_issues_enabled: false
+contact_links:
+  - name: Kasaia Portal project board
+    url: https://github.com/orgs/kasaia-portal/projects/1
+    about: See every epic, story and bug and where it stands.
